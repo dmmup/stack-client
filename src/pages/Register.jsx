@@ -40,7 +40,9 @@ const Register = () => {
 
   return (
     <>
+    <head>
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    </head>
     <div className='container'>
         <h1>Page d'inscription</h1>
         <form onSubmit={onSubmit}>

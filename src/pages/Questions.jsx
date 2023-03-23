@@ -123,7 +123,9 @@ const Questions = () => {
 
   return (
     <>
+    <head>
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    </head>
     <div className='profil'>
       <img className='pic_profil' src={icon_user} alt="" />Bienvenue, {sessionStorage.getItem("name")}
       </div>

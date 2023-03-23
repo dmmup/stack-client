@@ -48,7 +48,10 @@ const Login = (navigation) => {
       
   return (
     <>
+    <head>
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    </head>
+    
     <div className='container'>
       <div className='containeur shadow-lg p-3 mb-5  rounded'>
         <h1>Login</h1>
