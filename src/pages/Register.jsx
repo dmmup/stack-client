@@ -39,6 +39,8 @@ const Register = () => {
     }
 
   return (
+    <>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     <div className='container'>
         <h1>Page d'inscription</h1>
         <form onSubmit={onSubmit}>
@@ -64,6 +66,8 @@ const Register = () => {
             <button type="submit" className="btn btn-primary">S'inscrire</button>
         </form>
     </div>
+    </>
+    
   )
 }
 

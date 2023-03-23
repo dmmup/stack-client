@@ -47,6 +47,8 @@ const Login = (navigation) => {
 
       
   return (
+    <>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     <div className='container'>
       <div className='containeur shadow-lg p-3 mb-5  rounded'>
         <h1>Login</h1>
@@ -67,6 +69,8 @@ const Login = (navigation) => {
     <div className="register" onClick={onSendToLogin}>Nouveau client ? M'inscrire</div>
     </div>
     </div>
+    </>
+    
   )
 }
 

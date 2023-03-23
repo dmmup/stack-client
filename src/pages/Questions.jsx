@@ -122,8 +122,9 @@ const Questions = () => {
     }, [questions])
 
   return (
-    <div >
-      <div className='profil'>
+    <>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    <div className='profil'>
       <img className='pic_profil' src={icon_user} alt="" />Bienvenue, {sessionStorage.getItem("name")}
       </div>
       <Sidebar/>
@@ -136,7 +137,9 @@ const Questions = () => {
       <div className="divider"></div>
       <div>{showData()} </div>
     </div>
-    </div>
+    </>
+      
+    
     // onClick={() =>onSendQuestion()}
     
   )

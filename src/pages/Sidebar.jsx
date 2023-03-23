@@ -16,6 +16,8 @@ const Sidebar = () => {
     navigate(`/`)
   }
   return (
+    <>
+    
     <div className='sidebar'>
         <img src={home_icon} alt="" onClick={onSendToMainPage}/>
         <div className="column">
@@ -23,6 +25,8 @@ const Sidebar = () => {
             <img src={signout} alt="" onClick={onSignOut}/>
         </div>
     </div>
+    </>
+    
   )
 }
 
