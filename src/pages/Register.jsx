@@ -44,29 +44,32 @@ const Register = () => {
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     </head>
     <div className='container'>
+        <div className="containeur shadow-lg p-3 mb-5  rounded">
         <h1>Page d'inscription</h1>
         <form onSubmit={onSubmit}>
-            <div className="mb-3 mt-3 col-md-6">
+            <div className="mb-3 mt-3 col">
                 <label for="exampleInputEmail1" className="form-label">Matricule</label>
-                <input type="text" className="form-control" value={mat} onChange={(e) => setMat(e.target.value)}/>
+                <input type="text" className="form-control w-100" value={mat} onChange={(e) => setMat(e.target.value)}/>
                 
             </div>
-            <div className="mb-3 col-md-6">
+            <div className="mb-3 col">
                 <label for="exampleInputEmail1" className="form-label">Votre Nom Complet</label>
-                <input type="text" className="form-control" value={fName} onChange={(e) => setFname(e.target.value)}/>
+                <input type="text" className="form-control w-100" value={fName} onChange={(e) => setFname(e.target.value)}/>
                 
             </div>
-            <div className="mb-3 col-md-6 mt-5">
+            <div className="mb-3 col mt-5">
                 <label for="exampleInputPassword1" className="form-label">Password</label>
                 <input type="password" className="form-control" value={pwd} onChange={(e) => setPwd(e.target.value)}/>
             </div>
-            <div className="mb-3 col-md-6">
+            <div className="mb-3 col">
                 <label for="exampleInputPassword1" className="form-label">Confirm Password</label>
                 <input type="password" className="form-control" value={pwd1} onChange={(e) => setPwd1(e.target.value)} />
             </div>
             
             <button type="submit" className="btn btn-primary">S'inscrire</button>
         </form>
+        </div>
+        
     </div>
     </>
     

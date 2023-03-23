@@ -65,6 +65,9 @@ const Login = (navigation) => {
                 <label htmlFor="pwd" className="form-label">Password</label>
                 <input type="password" className="form-control" value={pwd} onChange={(e) => setPwd(e.target.value)}/>
             </div>
+        <div className="  mt-1">
+                <p>Demo <br /> Matricule: test <br /> Password: test</p>
+        </div>
         
         <button type="submit" onClick={onConnect}  className="btn btn-primary btn-lg btn-light btn-a">Login</button>
         
