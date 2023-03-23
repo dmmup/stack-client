@@ -16,7 +16,7 @@ const Questions = () => {
   const {token} = useParams()
   const navigate= useNavigate()
 
-    const url = `http://mackserver.xyz/question`;
+    const url = `https://mackserver.xyz/question`;
     
     const laQues = (e) => {
       e.preventDefault();
@@ -68,7 +68,7 @@ const Questions = () => {
 
     
     const onDeleteQuestion = async (id) => {
-      const url2 = `http://mackserver.xyz/question/delete/${id}`;
+      const url2 = `https://mackserver.xyz/question/delete/${id}`;
       const matricule = sessionStorage.getItem("matricule")
       const body = {
         matricule
