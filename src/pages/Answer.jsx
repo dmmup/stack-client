@@ -19,7 +19,7 @@ const Answer = () => {
     const onSubmit = async () =>{
         const matricule = sessionStorage.getItem("matricule")
         const name = sessionStorage.getItem("name")
-        const url = `http://198.199.91.232/question/create-answer/${id_Q}`; 
+        const url = `https://mackserver.xyz/question/create-answer/${id_Q}`; 
         const body = {
           "matricule": matricule,
           "name": name,
@@ -67,7 +67,7 @@ const Answer = () => {
     useEffect(() => {
       const getData = async() => {
         
-        const url =`http://198.199.91.232/question/create-answer/${id_Q}`
+        const url =`https://mackserver.xyz/question/create-answer/${id_Q}`
         
           const {data} = await axios.get(url);
           if(data.sucess){
