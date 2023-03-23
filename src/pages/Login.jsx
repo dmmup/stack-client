@@ -19,7 +19,7 @@ const Login = (navigation) => {
     e.preventDefault();
     
     try{
-      const url = 'http://198.199.91.232/auth'
+      const url = 'http://mackserver.xyz/auth'
       const body = {
         "matricule": `${mat}`,
         "password": `${pwd}`

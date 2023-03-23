@@ -68,7 +68,7 @@ const Questions = () => {
 
     
     const onDeleteQuestion = async (id) => {
-      const url2 = `http://198.199.91.232/question/delete/${id}`;
+      const url2 = `http://mackserver.xyz/question/delete/${id}`;
       const matricule = sessionStorage.getItem("matricule")
       const body = {
         matricule

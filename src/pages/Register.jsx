@@ -17,7 +17,7 @@ const Register = () => {
     const onSubmit = async (e) => {
         e.preventDefault();
 
-        const url = 'http://198.199.91.232/user'
+        const url = 'http://mackserver.xyz/user'
         const body = {
             "name": `${fName}`,
             "matricule": `${mat}`,
