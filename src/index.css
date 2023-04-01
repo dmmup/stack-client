@@ -215,7 +215,16 @@ img{
     margin-top: -2px;
     
 }
-
+.h{
+  font-size: 15px;
+}
+.title-name {
+    font-size: 15px;
+    padding: 0 10px;
+}
+.answer {
+  font-size: 20px;
+}
 
 }
 

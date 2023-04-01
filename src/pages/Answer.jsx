@@ -83,8 +83,8 @@ const Answer = () => {
   return (
     <div className='container'>
       <Sidebar/>
-      <div className="container-question">
-      <h1 className='mt-5'>{laQuestion}</h1>
+      <div className="container-question mt-5">
+      <h1 className='mt-5 mb-5 h'>{laQuestion}</h1>
       <div className='askQ'> 
       <input type="text" className='put' placeholder='Vous avez la reponse a cette question? Repondez ici ...' required onChange={repFromUser}/>
       <button type="button" className='btn btn-primary ml-3' onClick={onSubmit} >Repondre</button>
