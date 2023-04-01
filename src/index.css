@@ -203,6 +203,20 @@ img{
   width: 20px;
   height: 22px;
 }
+.profil {
+  font-size: 10px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.pic_profil {
+    width: 15px;
+    height: 15px;
+    margin-top: -2px;
+    
+}
+
+
 }
 
 @media only screen and (max-width: 300px){
