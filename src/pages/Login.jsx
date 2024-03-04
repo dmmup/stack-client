@@ -19,7 +19,7 @@ const Login = (navigation) => {
     e.preventDefault();
     
     try{
-      const url = 'https://mackserver.xyz/auth'
+      const url = 'http://localhost:5000/auth'
       const body = {
         "matricule": `${mat}`,
         "password": `${pwd}`
